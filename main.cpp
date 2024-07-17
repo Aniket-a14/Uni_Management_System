@@ -191,7 +191,7 @@ void handleUpdateData(DatabaseManager& dbManager) {
 }
 
 int main() {
-    DatabaseManager dbManager("localhost", "root", "wizard", "db");
+    DatabaseManager dbManager("localhost", "root", "your password", "your database");
 
     if (!dbManager.connect()) {
         return 1;
